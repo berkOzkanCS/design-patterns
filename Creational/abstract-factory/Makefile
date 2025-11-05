@@ -1,9 +1,9 @@
 
 
-all: main.o factory.o
+all: main.o abstract-factory.o
 	clang++ -g -o out main.cpp
 
-factory.o: factory.cpp
+factory.o: abstract-factory.cpp
 	clang++ -g -c factory.cpp
 
 run:
